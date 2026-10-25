@@ -1,7 +1,8 @@
-﻿using Ef_3.Repository;
-using Microsoft.AspNetCore.Mvc;
-using Ef_3.Model;
+﻿using Ef_3.Model;
+using Ef_3.Repository;
+using Ef_3.Services;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Ef_3.Controllers
@@ -10,20 +11,18 @@ namespace Ef_3.Controllers
     [ApiController]
     public class MobileController : ControllerBase
     {
-        private readonly MobileDB _mobile;
-        public MobileController(MobileDB mobile)
+        private readonly MobileServices _mobileServices;
+        public MobileController(MobileServices mobile)
         {
-            _mobile = mobile;
+            _mobileServices = mobile;
         }
-
-
 
         [HttpGet]
         public async Task<IActionResult> getMobiles()
         {
             try
             {
-                var mobileData = await _mobile.MobilesTable.ToListAsync();
+                var mobileData = await _mobileServices.GetMobilesAsync();
                 return Ok(mobileData);
             }
             catch (Exception ex)
@@ -37,9 +36,8 @@ namespace Ef_3.Controllers
         {
             try
             {
-                _mobile.MobilesTable.Add(entity);
-                await _mobile.SaveChangesAsync();
-                return Ok(entity);
+                var result = await _mobileServices.createMobile(entity);
+                return Ok(result);
             }
             catch (Exception ex)
             {
@@ -52,14 +50,8 @@ namespace Ef_3.Controllers
         {
             try
             {
-                var entity = await _mobile.MobilesTable.FindAsync(id);
-                if (entity == null)
-                {
-                    return NotFound("Mobile not found");
-                }
-                _mobile.MobilesTable.Remove(entity);
-                await _mobile.SaveChangesAsync();
-                return Ok("Mobile deleted successfully");
+                var result = await _mobileServices.DeleteMobile(id);
+                return Ok(result);
             }
             catch (Exception ex)
             {
@@ -72,19 +64,8 @@ namespace Ef_3.Controllers
         {
             try
             {
-                var existingMobile = await _mobile.MobilesTable.FindAsync(id);
-                if (existingMobile == null)
-                {
-                    return NotFound("Mobile not found");
-                }
-                existingMobile.Name = entity.Name;
-                existingMobile.Model = entity.Model;
-                existingMobile.Price = entity.Price;
-                existingMobile.Color = entity.Color;
-
-                _mobile.MobilesTable.Update(existingMobile);
-                await _mobile.SaveChangesAsync();
-                return Ok("Data Updated Successfully");
+                var result = await _mobileServices.UpdateMobile(id, entity);
+                return Ok(result);
             }
             catch (Exception ex)
             {

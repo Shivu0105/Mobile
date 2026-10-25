@@ -1,5 +1,6 @@
 
 using Ef_3.Repository;
+using Ef_3.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace Ef_3
@@ -21,6 +22,8 @@ namespace Ef_3
 
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
+
+            builder.Services.AddScoped<MobileServices>();
 
             var app = builder.Build();
 
