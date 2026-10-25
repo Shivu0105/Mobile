@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\shiva\\source\\repos\\Mobile\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{973B92F2-9F9E-0E23-96EA-60968F17EFB8}|Ef-3\\Ef-3.csproj|c:\\users\\shiva\\source\\repos\\mobile\\ef-3\\controllers\\mobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{973B92F2-9F9E-0E23-96EA-60968F17EFB8}|Ef-3\\Ef-3.csproj|solutionrelative:ef-3\\controllers\\mobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{973B92F2-9F9E-0E23-96EA-60968F17EFB8}|Ef-3\\Ef-3.csproj|c:\\users\\shiva\\source\\repos\\mobile\\ef-3\\repository\\mobiledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{973B92F2-9F9E-0E23-96EA-60968F17EFB8}|Ef-3\\Ef-3.csproj|solutionrelative:ef-3\\repository\\mobiledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{973B92F2-9F9E-0E23-96EA-60968F17EFB8}|Ef-3\\Ef-3.csproj|c:\\users\\shiva\\source\\repos\\mobile\\ef-3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{973B92F2-9F9E-0E23-96EA-60968F17EFB8}|Ef-3\\Ef-3.csproj|solutionrelative:ef-3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{973B92F2-9F9E-0E23-96EA-60968F17EFB8}|Ef-3\\Ef-3.csproj|c:\\users\\shiva\\source\\repos\\mobile\\ef-3\\model\\mobiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{973B92F2-9F9E-0E23-96EA-60968F17EFB8}|Ef-3\\Ef-3.csproj|solutionrelative:ef-3\\model\\mobiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973B92F2-9F9E-0E23-96EA-60968F17EFB8}|Ef-3\\Ef-3.csproj|c:\\users\\shiva\\source\\repos\\mobile\\ef-3\\controllers\\mobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973B92F2-9F9E-0E23-96EA-60968F17EFB8}|Ef-3\\Ef-3.csproj|solutionrelative:ef-3\\controllers\\mobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973B92F2-9F9E-0E23-96EA-60968F17EFB8}|Ef-3\\Ef-3.csproj|c:\\users\\shiva\\source\\repos\\mobile\\ef-3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{973B92F2-9F9E-0E23-96EA-60968F17EFB8}|Ef-3\\Ef-3.csproj|solutionrelative:ef-3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{973B92F2-9F9E-0E23-96EA-60968F17EFB8}|Ef-3\\Ef-3.csproj|c:\\users\\shiva\\source\\repos\\mobile\\ef-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MobileController.cs",
               "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\Mobile\\Ef-3\\Controllers\\MobileController.cs",
               "RelativeDocumentMoniker": "Ef-3\\Controllers\\MobileController.cs",
               "ToolTip": "C:\\Users\\shiva\\source\\repos\\Mobile\\Ef-3\\Controllers\\MobileController.cs",
               "RelativeToolTip": "Ef-3\\Controllers\\MobileController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-17T12:03:41.842Z",
               "EditorCaption": ""
@@ -55,12 +55,11 @@
               "RelativeToolTip": "Ef-3\\Program.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T11:09:45.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-17T11:09:45.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\Mobile\\Ef-3\\appsettings.json",
               "RelativeDocumentMoniker": "Ef-3\\appsettings.json",
@@ -68,12 +67,11 @@
               "RelativeToolTip": "Ef-3\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-17T11:03:00.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-17T11:03:00.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MobileDB.cs",
               "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\Mobile\\Ef-3\\Repository\\MobileDB.cs",
               "RelativeDocumentMoniker": "Ef-3\\Repository\\MobileDB.cs",
@@ -86,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Mobiles.cs",
               "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\Mobile\\Ef-3\\Model\\Mobiles.cs",
               "RelativeDocumentMoniker": "Ef-3\\Model\\Mobiles.cs",
