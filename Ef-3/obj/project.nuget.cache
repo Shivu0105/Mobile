@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TIH0z+LhZys=",
+  "dgSpecHash": "M+h6tgX0Yl8=",
   "success": true,
   "projectFilePath": "C:\\Users\\shiva\\source\\repos\\Mobile\\Ef-3\\Ef-3.csproj",
   "expectedPackageFiles": [
@@ -55,5 +55,15 @@
     "C:\\Users\\shiva\\.nuget\\packages\\system.security.cryptography.pkcs\\10.0.13\\system.security.cryptography.pkcs.10.0.13.nupkg.sha512",
     "C:\\Users\\shiva\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.11\\system.security.cryptography.protecteddata.9.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\shiva\\source\\repos\\Mobile\\Ef-3\\Ef-3.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\shiva\\source\\repos\\Mobile\\Ef-3\\Ef-3.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
