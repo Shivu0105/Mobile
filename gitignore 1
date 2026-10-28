@@ -1,0 +1,75 @@
+## ----------------------------------------------------------------------
+## .NET / Visual Studio
+## ----------------------------------------------------------------------
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+out/
+TestResults/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.DotSettings.user
+_ReSharper*/
+*.crash
+*.dbmdl
+*.jfm
+[Aa]pp_data/
+[Dd]ata[Cc]ache/
+[Jj]ournal/
+*.log
+*.db
+*.db-shm
+*.db-wal
+
+## ----------------------------------------------------------------------
+## Node / Frontend
+## ----------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+dist/
+dist-ssr/
+build/
+coverage/
+.next/
+.cache/
+.turbo/
+.parcel-cache/
+*.tsbuildinfo
+
+## ----------------------------------------------------------------------
+## Secrets & Local Environment
+## ----------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!**/.env.example
+appsettings*.local.json
+appsettings.Production.json
+secrets.json
+*.pem
+*.key
+*.pfx
+*.cert
+*.cer
+*.crt
+*.p12
+
+## ----------------------------------------------------------------------
+## OS / Miscellaneous
+## ----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
